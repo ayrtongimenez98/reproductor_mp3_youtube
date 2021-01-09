@@ -2,13 +2,12 @@ import Rebase from 're-base';
 import firebase from 'firebase';
 
 var app = firebase.initializeApp({
-  apiKey: "AIzaSyB2iDnHHScTOMOvw4Ta5K_d77hUmUoUUxs",
-  authDomain: "mp3-player-301114.firebaseapp.com",
-  databaseURL: "https://mp3-player-301114-c9273.firebaseio.com",
-  projectId: "youtube-mp3-player-301114",
-  storageBucket: "youtube-mp3-player-301114.appspot.com",
-  messagingSenderId: "882566245881",
-  appId: "1:882566245881:web:50cb281b29b8664865a128"
+  apiKey: "YOUR_FIREBASE_API_KEY",
+  authDomain: "YOUR_FIREBASE_AUTH_DOMAIN",
+  databaseURL: "YOUR_FIREBASE_DATABASE_URL",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID"
 });
 
 
